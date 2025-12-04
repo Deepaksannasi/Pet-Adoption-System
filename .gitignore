@@ -1,0 +1,21 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node Modules (if using npm)
+node_modules/
+
+# Editor & IDE settings
+.vscode/
+.idea/
+
+# Python Virtual Environment (if exists)
+venv/
+.venv/
+
+# Logs
+*.log
+
+# Cache / temporary
+*.cache
+*.tmp
