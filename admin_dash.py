@@ -8,7 +8,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 cgitb.enable()
 form = cgi.FieldStorage()
 
-# --- DB Connection ---
+# --- DataBase Connection ---
 con = pymysql.connect(host="localhost", user="root", password="", database="pet")
 cur = con.cursor()
 
