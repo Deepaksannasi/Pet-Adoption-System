@@ -34,7 +34,7 @@ total_shelters = cur.fetchone()[0]
 cur.execute("SELECT COUNT(*) FROM adoptions")
 total_adoptions = cur.fetchone()[0]
 
-# --- Fetch Tables ---
+# --- Fetch Tables ----
 cur.execute("SELECT user_id, full_name, email, phone, city, state, status FROM user_reg")
 users = cur.fetchall()
 
